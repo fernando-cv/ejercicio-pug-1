@@ -1,0 +1,22 @@
+.link li{
+  list-style: none;
+}
+.link a{
+  text-decoration: none;
+  color: black
+}
+.link a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+.menu-hamburguesa{
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+}
+
+
+.img-logo img{
+  
+
+}
