@@ -1,6 +1,6 @@
 .menu-superior{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   margin-top: 20px;
 }
 .menu-superior ul,li{
@@ -15,20 +15,29 @@
 }
 .link a{
   text-decoration: none;
-  color: black
+  color: black;
+  font-size: 14px;
 }
 .link a:hover{
   color: grey;
   text-decoration: underline;
 }
+.avatar button{
+  background-color: transparent;
+  border: none;
+  margin-top: -10px
+}
+.avatar button:hover{
+  border: none;
+}
 .menu-hamburguesa{
   background-color: grey;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 .img-avatar img{
   border-radius: 50%;
-  width: 50px;
+  width: 40px;
 }
 
 .google-busqueda {
@@ -38,14 +47,11 @@
 }
 .input-busqueda input{
   margin: 25px 47px 40px 46px;
-  padding: 0px 29px 14px 240px;
+  padding: 0px 29px 14px 255px;
   margin-left: -100px;
   border-radius: 25px;
 }
-.img-logo img{
-  
 
-}
 
 .buttons-inferior{
   display: flex;
